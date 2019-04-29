@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Hello_World
 {
-    public partial class Form1 : Form
+    public partial class TxtBxName : Form
     {
-        public Form1()
+        public TxtBxName()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
+       
+         MessageBox.Show("Hello " + txBxName.Text);
+
         }
     }
 }
